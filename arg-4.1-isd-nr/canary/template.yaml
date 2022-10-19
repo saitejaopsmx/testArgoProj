@@ -12,7 +12,7 @@ spec:
       initialDelay: 10s
       provider:
         opsmx:
-          application: sdnr-isd-analysis-app
+          application: analysis
           profile: opsmx-profile
           lifetimeMinutes: 6
           threshold:
