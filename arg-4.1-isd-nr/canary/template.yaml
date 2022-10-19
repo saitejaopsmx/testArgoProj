@@ -19,8 +19,8 @@ spec:
             pass: 80
             marginal: 60
           services:
-          - logTemplateName: "stacktemplatemd"
-            logTemplateVersion: "v2.0"
+          - logTemplateName: "stackdriver"
+            logTemplateVersion: "v3.0"
             logScopeVariables: "resource.labels.pod_name"
             baselineLogScope: ".*{{args.baseline-hash}}.*"
             canaryLogScope: ".*{{args.canary-hash}}.*"
